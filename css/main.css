@@ -568,6 +568,10 @@ h1 {
 
 
 @media (max-width: 660px) {
+    a > img{
+        height: 50px;
+    }
+
     .top-title {
         font-size: 67px;
     }
@@ -600,10 +604,10 @@ h1 {
 
 
     @media (min-width: 660px) { 
-  
-        .starter_container {
-            height: 100%;
-        }
+
+    .starter_container {
+        height: 100%;
+    }
 
     .navbar-default{
         height: 70px;
@@ -753,10 +757,9 @@ h1 {
         background-attachment: fixed;
     }
 
-    body > nav > div > div > div.navbar-header > span > img{
+    a > img{
         height: 50px;
     }
-
 
 
     .background_content h1 {
