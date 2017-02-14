@@ -40,8 +40,8 @@
                 <li><a href="#pricing">MENU</a></li>
                 <li><a href="#story">GALERY</a></li>
                 <li><a href="#reservation">BOOKING</a></li>
-                <li><a href="#reviews">Reviews</a></li>
-                <li><a href="#location">Location</a></li>
+                <li><a href="#reviews">REVIEWS</a></li>
+                <li><a href="#location">LOCATION</a></li>
             </ul>
         </div>
       </div>
@@ -57,6 +57,7 @@
             </div>
         </div>
         <section id ="pricing" class="description_content">
+            <h2 class="red second-title"><u>Menu</u></h2>
             <div class="text-content container"> 
                 <div class="container">
                     <div class="row">
@@ -102,48 +103,106 @@
 
 
 
-        <section id="story" class="description_content"><h2>Galery</h2>
+        <section id="story" class="description_content">
+            <h2 class="red second-title"><u>Gallery</u></h2>
             <div class="text-content container">
                 <div class="col-md-12">
                     <div class="img-section">
-                        <img src="images/logo.jpg" width="250" height="220">
-                        <img src="images/menu.jpg" width="250" height="220">
-                        <img src="images/menu2.jpg" width="250" height="220">
-                        
-                        <div class="img-section-space"></div>
-
-                        <img src="images/out.jpg" width="250" height="220">
-                        <img src="images/box.jpg" width="250" height="220">
-                        <img src="images/focoMangosteen.jpg" width="250" height="220">
-
-						<div class="img-section-space"></div>
-
-                        <img src="images/sopaUdon.jpg"  width="250" height="220">
-                        <img src="images/arrozIntegral.jpg"  width="250" height="220">
-                        <img src="images/bao.jpg"  width="250" height="220">
+                          <img src="images/menu.jpg" data-toggle="modal" data-target="#menu1" class="img-thumbnail" alt="menu1" width="250" height="220">   
+                          <img src="images/menu2.jpg" data-toggle="modal" data-target="#menu2" class="img-thumbnail" alt="menu2" width="250" height="220"> 
+                          <img src="images/out.jpg" data-toggle="modal" data-target="#outside" class="img-thumbnail" alt="out" width="250" height="220"> 
+                          <img src="images/shushisama.jpg" data-toggle="modal" data-target="#menu" class="img-thumbnail" alt="out" width="250" height="220"> 
                    </div>
                 </div>
             </div>
         </section>
+        <div class="modal fade" id="menu" role="dialog">
+            <div class="modal-dialog">            
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">
+                    <div class="containerModal col-lg-12">
+                        <h2 class=" reserv"> Menu</h2>
+                    </div>
+                  </h4>
+                </div>
+                <div class="modal-body">
+                    <img src="images/shushisama.jpg" width="100%"> 
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+        </div>
 
+        <div class="modal fade" id="menu1" role="dialog">
+            <div class="modal-dialog">            
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">
+                    <div class="containerModal col-lg-12">
+                        <h2 class=" reserv"> Menu 1</h2>
+                    </div>
+                  </h4>
+                </div>
+                <div class="modal-body">
+                    <img src="images/menu.jpg" width="100%"> 
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+        </div>
 
-        <section id ="beer" class="description_content">
+        <div class="modal fade" id="menu2" role="dialog">
+            <div class="modal-dialog">            
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">
+                    <div class="containerModal col-lg-12">
+                        <h2 class=" reserv"> Menu 2</h2>
+                    </div>
+                  </h4>
+                </div>
+                <div class="modal-body">
+                    <img src="images/menu2.jpg" width="100%"> 
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+        </div>
 
-        </section>
-
-
-
-        <section id="bread" class=" description_content">
-
-        </section>
-
-
-        <section id="featured" class="description_content"></section>
-
-
+        <div class="modal fade" id="outside" role="dialog">
+            <div class="modal-dialog">            
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">
+                    <div class="containerModal col-lg-12">
+                        <h2 class=" reserv"> Outside</h2>
+                    </div>
+                  </h4>
+                </div>
+                <div class="modal-body">
+                    <img src="images/out.jpg" width="100%"> 
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+        </div>
 
 
         <section  id="reservation"  class="description_content">
+            <h2 class="red second-title"><u>Reservation</u></h2>
             <div class="text-content coner"> 
                 <div class="inner contact">
                     <div class="contact-form">
@@ -210,8 +269,10 @@
               </div>
             </div>
         </div>
-
-        <div id="reviews" class="bs-example">
+        
+        <h2 class="red second-title" id="reviews"><u>Reviews</u></h2>
+        <div  class="bs-example">
+            
             <div class="media">
                 <div class="media-left">
                     <img src="images/user1.png" class="media-object" alt="user1">
@@ -258,8 +319,8 @@
             </div>
         </div>
 
-
         <section id="location">
+            <h2 class="red second-title"><u>Location</u></h2>
             <div class="map">
                 <iframe width="600" height="450" frameborder="0" style="border:0; width: 100%" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ9SRYW778cQ0ReNH5VGFidxo&key=AIzaSyCGCdz3AbczazfQgszCtXv21ZSpEgUTNdw" allowfullscreen></iframe>
             </div>

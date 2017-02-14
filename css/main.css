@@ -1,8 +1,12 @@
 iframe{
     pointer-events:none;
     border-radius: 5px;
-    margin: 5px;
 }
+.img-section>img:hover{
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.9);
+    transition: 0.3s;
+}
+
 
 .navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .navbar-nav>li>a:active{
     background-color: #b72116 !important;
@@ -13,7 +17,11 @@ iframe{
 .navbar-nav{
     margin-left: 15px !important;
     padding-left: 15px !important;
-    border-left: 1px solid #b72116;
+}
+
+a>img{
+    border-right: 1px solid #b72116;
+    padding-right: 15px;
 }
 
 .bs-example{
@@ -21,6 +29,7 @@ iframe{
     border-radius: 5px;
     margin: 5px;
     padding: 7px;
+    margin-bottom: 55px;
 }
 .media-object{
     width: 50px;
@@ -259,6 +268,8 @@ a > img{
     font-size: 30px; 
     font-style: italic; 
     text-transform: capitalize;
+    width: 100%;
+    text-align: center;
 }
 
 .red{
@@ -333,6 +344,16 @@ a > img{
     background-attachment: fixed;
 }
 
+#story{
+    background-color: lightgrey;
+    padding-top: 5px;
+    padding-bottom: 80px !important;
+}
+
+#pricing{
+    padding-bottom: 80px !important;
+}
+
 .description_content {
     padding: 50px 0;
     width: 100%;
@@ -340,7 +361,7 @@ a > img{
     margin: 0 auto 0 auto;
     z-index: 99;
     position: relative;
-    background: white;
+    background: #fff;
     text-align: center; 
 }
 .description_body {
