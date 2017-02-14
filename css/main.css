@@ -174,8 +174,9 @@ li{
     word-spacing: 5px !important;
 }
 
-body > nav > div > div > div.navbar-header > span > img{
+a > img{
     height: 100px;
+    z-index: 1000;
 }
 
 .starter_container {
