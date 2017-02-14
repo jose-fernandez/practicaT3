@@ -1,5 +1,23 @@
+iframe{
+    pointer-events:none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .navbar-nav>li>a:active{
+    background-color: #b72116 !important;
+    border-radius: 5px;
+    color:#fff !important;
+}
+
+.navbar-nav{
+    margin-left: 15px !important;
+    padding-left: 15px !important;
+    border-left: 1px solid #b72116;
+}
+
 .bs-example{
-    border: 3px solid #ddd;
+    border: 3px solid #b72116;
     border-radius: 5px;
     margin: 5px;
     padding: 7px;
@@ -33,7 +51,9 @@ h1 {
     border: 1px solid rgba(47, 46, 47, 0.59);
 }
 .navactive{
-   border-bottom: 1px solid #b72116;
+   background-color: #b72116 !important;
+    border-radius: 5px;
+    color:#fff !important;
 }
 p.desc-text{
     font-size: 20px;
@@ -46,7 +66,7 @@ p.desc-text{
 }
 .right-text p{
     text-align: left !important;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #b72116;
     padding: 10px 0;
 }
 
@@ -354,9 +374,9 @@ h1 {
     font-size: 28px;
     font-weight: 900;
     letter-spacing: 0.040em;
-    color: #63C85D;
+    color: #b72116;
     text-align: center;
-    margin: 40px 0 0 0;
+    margin: 30px 0 0 0;
 }
 .social_info, 
 .social_icons {
@@ -482,13 +502,13 @@ p.sub-footer-text a{
 }
 
 .form:hover{
-    border:1px solid #8BC3A3;
+    border:1px solid #b72116;
 }
 
 .form:focus{
     color: white;
     outline: none;
-    border:1px solid #8BC3A3;
+    border: 1px solid #b72116;
 }
 
 .textarea{
@@ -589,6 +609,13 @@ h1 {
         margin: 0px auto;
 
     }
+
+    a > img{
+        height: 45px !important;
+        margin: 5px;  
+    }
+
+
 }
 
 
@@ -600,6 +627,10 @@ h1 {
     .background_content h1 {
       top: 33%;
     }  
+    a > img{
+        height: 45px !important;
+        margin: 5px;
+    }
 }
 
 
@@ -724,7 +755,7 @@ h1 {
 
 
     section.social_connect {
-        background-color: black;
+        background-color: transparent;
         text-align: center;
         margin-bottom: 50px;
   }
