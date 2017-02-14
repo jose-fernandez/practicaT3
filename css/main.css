@@ -1,3 +1,19 @@
+.containerModal{
+    display: inline-flex;
+}
+.containerModal>img{
+    width: 30px !important; 
+    height: 30px !important; 
+    margin-top: 5px;
+    margin-right: 5px;
+    }
+.reserv{
+    color: black;
+    font-family: 'Playball', cursive;
+    font-size: 30px;
+    font-weight: 400; 
+    }
+
 h1 {
     font-size: 37px;
     font-weight: 900;
@@ -806,4 +822,6 @@ h1 {
     .social_icons li a {
         font-size: 30px;
     }
+
+
 }
