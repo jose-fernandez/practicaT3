@@ -230,10 +230,13 @@ a > img{
     text-transform: capitalize;
 }
 
-.white{
+.red{
     color: #b72116;
 }
 
+.white{
+    color: white;
+}
 
 
 .background_content {
