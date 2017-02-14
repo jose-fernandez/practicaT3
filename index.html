@@ -14,6 +14,12 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="favicon-1.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+
     </head>
     <body>
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -141,11 +147,9 @@
         </section>
 
 
-        
+        <section id="featured" class="description_content"></section>
 
-        <section id="featured" class="description_content">
-            
-        </section>
+
 
 
         <section  id="reservation"  class="description_content">
@@ -201,37 +205,82 @@
                 </div>
             </div>
         </section>
-  <div class="modal fade" id="myModal" role="dialog">
-                                        <div class="modal-dialog">
-                                        
-                                          <!-- Modal content-->
-                                          <div class="modal-content">
-                                            <div class="modal-header">
-                                              <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                              <h4 class="modal-title">
-                                                <div class="containerModal col-lg-12">
-                                                    <img src="favicon-1.ico">
-                                                    <h2 class=" reserv"> Noodle Rest</h2>
-                                                </div>
-                                              </h4>
-                                            </div>
-                                            <div class="modal-body">
-                                              <p>Your booking was successful.</p>
-                                            </div>
-                                            <div class="modal-footer">
-                                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                            </div>
-                                          </div>
-                                          
-                                        </div>
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+            
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">
+                    <div class="containerModal col-lg-12">
+                        <img src="favicon-1.ico">
+                        <h2 class=" reserv"> Noodle Rest</h2>
+                    </div>
+                  </h4>
+                </div>
+                <div class="modal-body">
+                  <p>Your booking was successful.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+              
+            </div>
+        </div>
+
+        <div class="bs-example">
+            <div class="media">
+                <div class="media-left">
+                    <img src="images/user1.png" class="media-object" alt="user1">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Jhon Carter <small><i>Posted on January 10, 2017</i></small></h4>
+                    <p>Excellent restaurant! I love it. One day I'm definitely going to move there and I'll let you know once I do.</p>
+                    <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img src="images/user3.ico" class="media-object" alt="Sample Image">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Alan Parker <small><i>Posted on January 10, 2017</i></small></h4>
+                                <p>If you said... I don't really like their food.</p>
+                                <!-- Nested media object -->
+                                <div class="media">
+                                    <div class="media-left">
+                                        <a href="#">
+                                            <img src="images/user1.png" class="media-object" alt="Sample Image">
+                                        </a>
                                     </div>
-      
-<!--AQUI VA LA SECCION DE COMENTARIOS-->
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Jhon Carter <small><i>Posted on January 11, 2017</i></small></h4>
+                                        <p>Seriously? I'm addicted to.</p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <hr />
+                <div class="media">
+                    <div class="media-body">
+                        <h4 class="media-heading">Marie Addams <small><i>Posted on February 1, 2017</i></small></h4>
+                        <p>I'm agree with <strong>Jhon</strong>, the food is quite tasty here.</p>
+                    </div>
+                    <div class="media-right">
+                        <a href="#">
+                            <img src="images/user2.png" class="media-object" alt="Sample Image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
         <section id="contact">
             <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.664063989472!2d91.8316103150038!3d24.909437984030877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37505558dd0be6a1%3A0x65c7e47c94b6dc45!2sTechnext!5e0!3m2!1sen!2sbd!4v1444461079802" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Calle%20Pr%C3%ADncipe%2C%204%2C%2018001%20Granada&key=AIzaSyBrpIo767W3oJgyKyyJ17Ge9AMMPj_lZ0s" allowfullscreen></iframe>
             </div>
         </section>
 
@@ -267,6 +316,10 @@
         <script type="text/javascript" src="js/jquery-1.10.2.js"></script>     
         <script type="text/javascript" src="js/jquery.mixitup.min.js" ></script>
         <script type="text/javascript" src="js/main.js" ></script>
+
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 
     </body>
 </html>
